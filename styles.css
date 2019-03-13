@@ -1,0 +1,22 @@
+body {
+    background-color: #0f0f0f;
+    font-family: Roboto,-apple-system,BlinkMacSystemFont,Avenir Next,Avenir,Helvetica,sans-serif;
+}
+a {
+        color: #02e4b0;
+        transition: all .2s ease;
+        text-decoration: none;
+        outline: 0;
+    }
+h1 {
+    margin: 0 0 25px;
+    color: #02e4b0;
+} 
+p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #d4d4d4;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+ 
