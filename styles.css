@@ -1,13 +1,11 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
 body {
     background-color: #0f0f0f;
     font-family: Roboto,-apple-system,BlinkMacSystemFont,Avenir Next,Avenir,Helvetica,sans-serif;
 }
-a {
-        color: #02e4b0;
-        transition: all .2s ease;
-        text-decoration: none;
-        outline: 0;
-    }
 h1 {
     margin: 0 0 25px;
     color: #02e4b0;
@@ -19,4 +17,69 @@ p {
     text-transform: uppercase;
     margin-bottom: 60px;
 }
- 
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+ header {
+
+ }
+ header::after {
+     content: '';
+     display: table;
+     clear: both;
+ }
+ .logo {
+     float: left;
+     width: 100px;
+     height: 100px;
+     padding: 10px 0;
+ }
+ nav {
+     float: right;
+ }
+ nav ul {
+     margin: 0;
+     padding: 0;
+     list-style: none;
+ }
+ nav li {
+     display: inline-block;
+     margin-left: 70px;
+     padding-top: 23px;
+     position: relative;
+ }
+ nav a {
+     color: #fff;
+     text-decoration: none;
+     text-transform: uppercase;
+     font-size: 14px;
+ }
+
+ nav a:hover {
+     color: #5c5c5c; 
+ }
+ nav a::before {
+     content: '';
+     display: block;
+     height: 5px;
+     width: 0%;
+     top: 0;
+     background color: #0f0f0f;
+     position: absolute;
+     transition: all ease-in-out: 250ms;
+ }
+ nav a:hover::before {
+     width: 100%;
+ }
+ canvas {
+    display: block;
+    vertical-align: bottom;
+  }
+  
+  /* Particle container. */
+  #particle-container {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+  }
