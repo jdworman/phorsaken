@@ -1,4 +1,4 @@
-particlesJS("particle-container", {
+("particle-container", {
     "particles": {
       "number": {
         "value": 80,
@@ -108,3 +108,4 @@ particlesJS("particle-container", {
     },
     "retina_detect": true
   });
+  
