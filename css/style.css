@@ -80,3 +80,7 @@ main > div:last-of-type {
     bottom: 75px; 
     right: 75px;
  }
+
+ .text-primary {
+    color: #93cb52;
+  }
