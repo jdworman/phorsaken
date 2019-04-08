@@ -63,24 +63,71 @@ header nav a:last-of-type {
     text-transform: uppercase; 
 } /* button */
 
-main > div:first-of-type {
-     background-color: white; 
-     width: 30%; 
-     height: 150px; 
-     position: absolute; 
-     bottom: 75px; 
-     left: 75px; 
-    }
-    
-main > div:last-of-type { 
-    background-color: seagreen; 
-    width: 50%; 
-    height: 250px; 
-    position: absolute; 
-    bottom: 75px; 
-    right: 75px;
- }
-
  .text-primary {
     color: #93cb52;
   }
+
+  h1, h2, h3, h4, h5, h6 {
+      line-height: 1.2em;
+      margin-bottom: 1em;
+      font-weight: 400;
+  }
+
+  li, p {
+    font-size: 16px;
+  }
+
+  p {
+    line-height: 1.35em;
+  }
+
+  main > p:first-of-type {
+      color: white;
+      font-size: 18px;
+      line-height: 29px;
+      margin: 0px 0px 30px;
+      width: 50%;
+      height: 550px;
+      position: absolute;
+      bottom: 75px; 
+      right: 75px;
+  }
+
+  main > h1:first-of-type {
+    color: seagreen; 
+    width: 50%; 
+    height: 700px; 
+    font-size: 56px;
+    position: absolute; 
+    bottom: 75px; 
+    right: 75px;
+    margin: 0.67em 0px;
+   }
+
+   img {
+    width: 630px; 
+    height: 483px;  
+    position: absolute; 
+    bottom: 500px; 
+    left: 208px; 
+    z-index: 1;
+    filter: grayscale(100%);
+   }
+ 
+
+   .btn-products {
+    border: 1px outset black;
+    background-color: seagreen; 
+    width: 0px; 
+    height: 0px; 
+    font-size: 56px;
+    position: absolute; 
+    bottom: 75px; 
+    right: 75px;
+    margin: 0.67em 0px;
+    background-color: seagreen; 
+    padding: 10px 40px; 
+    text-transform: uppercase;
+   }
+       
+    
